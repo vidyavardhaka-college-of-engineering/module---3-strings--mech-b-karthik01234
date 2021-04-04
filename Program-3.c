@@ -11,23 +11,24 @@
 //The concatenated  string = Nithinkumar
 
 #include <stdio.h>
-int main() {
+int main() 
+{
 	char a[20], b[20], c[20];
 	int i, j;
 	printf("Enter the first string : ");
 	scanf("%s", a);
 	printf("Enter the second string : ");
 	scanf("%s", b);
-	for ( )                                                // Complete the code in for
-           { 
-		c[i] = ;                                              //Complete the statement
+	for ( i=0;a[i]!='\0';i++)                                                // Complete the code in for
+  { 
+		c[i] = a[i] ;                                              //Complete the statement
 	}
-	for ( )                                                 // Complete the code in for
-           { 
-		c[i] = ;                                              //Complete the statement
+	for (j=0;b[j]!='\0';j++ )                                                 // Complete the code in for
+  { 
+		c[i] = b[j] ;                                              //Complete the statement
 		i++;
 	}
-	c[i]= ;                                               //Complete the statement
+	c[i]='\0' ;                                               //Complete the statement
 	printf("The concatenated string = %s", c);
 	return 0;
 }
